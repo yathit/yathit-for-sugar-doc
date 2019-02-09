@@ -8,19 +8,23 @@ For this opensource Knowledge Base web site generator, see : [Lessons Learned Bu
 * Clone this repository to your machine.
 * Make sure to have Ruby installed (tested fine on Ruby 2.3.x).
 * Install required dependencies with `bundle install`
-* Run 
+* Run
 
-    jekyll serve
-    
-* Go to [http://localhost:4000/sugarcrm-gmail/(http://127.0.0.1:4000/sugar-mobile-app/)
+    jekyll serve --watch
+
+* Go to [http://localhost:4000/gmail-addon/](http://127.0.0.1:4000/gmail-addon/)
 
 ## Images
 
-Resizing screenshots, 
+Resizing screenshots,
 
     sips -Z 466 *.png
 
     sips -Z 466  ~/screenshot/*.png
+
+In windows, `choco install ImageMagick`.
+
+    magick mogrify -resize  466x *.png
 
 Uploading
 
@@ -29,20 +33,18 @@ Uploading
 
 Or
 
-    gsutil mv ~/Desktop/*.png  gs://yathit-assets/screenshot/
-    
+    gsutil mv *.png  gs://yathit-assets/addon/
+
 List files
 
-    gsutil ls gs://yathit-assets/screenshot/sm-*
+    gsutil ls gs://yathit-assets/addon/*
 
 ## How to build in production
 
 This is mostly:
 
     ant
-    
-To build the site    
 
-    bundle exec jekyll build --destination ~/gae/yathit-app/src/main/webapp/static/sugar-mobile-app
+To build the site
 
-
+    bundle exec jekyll build --destination ~/gae/yathit-app/src/main/webapp/static/gmail-addon

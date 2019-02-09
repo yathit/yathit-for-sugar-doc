@@ -28,7 +28,7 @@ module Jekyll
       end
       out = '<div class="image-section"><img class="'
       out <<  "img-responsive #{opt}"
-      out << '" src="https://yathit-assets.storage.googleapis.com/screenshot/'
+      out << '" src="https://yathit-assets.storage.googleapis.com/addon/'
       out << "#{name}"
       out << '"/></div>'
     end
