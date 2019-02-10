@@ -1,4 +1,4 @@
-This repository contains all that is needed to fully generate the [Knowledge Base](https://www.yathit.com/sugar-mobile-app/overview.html) for [Yathit Mobile App for Sugar/SuiteCRM](https://www.yathit.com/suitecrm-mobile-app/index.html).
+This repository contains all that is needed to fully generate the [Knowledge Base](https://www.yathit.com/gmail-addon/overview.html) for [Yathit Mobile App for Sugar/SuiteCRM](https://www.yathit.com/suitecrm-mobile-app/index.html).
 
 For this opensource Knowledge Base web site generator, see : [Lessons Learned Building a Git-Based Knowledge Base for my SaaS product](https://www.wisecashhq.com/blog/lessons-learned-creating-a-git-based-knowledge-base-for-my-saas-product).
 

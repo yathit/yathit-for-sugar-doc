@@ -21,7 +21,7 @@
                 <arg value="jekyll" />
                 <arg value="build" />
                 <arg value="--destination" />
-                <arg value="${gae.dir}/src/main/webapp/static/sugar-mobile-app" />
+                <arg value="${gae.dir}/src/main/webapp/static/gmail-addon" />
             </exec>
         </sequential>
     </target>
@@ -30,6 +30,11 @@
             <filelist dir="_assets/javascripts/" files="gtag.js,jquery-3.2.1.min.js,respond.min.js,bootstrap.min.js,youtubepopup.js,garlic.min.js,kb-script.js,youtube-responsive.js">
             </filelist>
         </concat>
+    </target>
+    <target name="copy" description="copy distribution files">
+        <copy todir="${gae.dir}/src/main/webapp/static/gmail-addon">
+            <fileset dir="_site"></fileset>
+        </copy>
     </target>
     <target name="main" depends="concat,build,forum" description="build all">
     </target>
