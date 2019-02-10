@@ -8,14 +8,3 @@ To view record detail, tap on a record list item on a Record View or other place
 
 {{ "sm-view-contact.gif width466" | screenshot }}
 
-
-### Email template and mail merge
-
-You can use your CRM email template with mail merge. You can select the template you want to use. Notice that your Cases details like the case number, the case status are filled in the email already.
-
-### View attachment
-
-You can view attach file in **Document** and **Note** records. Tap the eye icon {{ "visibility" | svg_icon }} in the file name field to view the attached file. Note that in email attachment are also **Note** record as appear in related panel of a **Email** record.
-
-{{ "sm-viewing-note.gif width466" | screenshot }}
-

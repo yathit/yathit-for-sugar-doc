@@ -24,7 +24,8 @@ module Jekyll
       name = parts[0]
       opt = ''
       if parts.length > 1
-        opt = parts[1]
+        others = parts.drop(0)
+        opt = others.join(' ')
       end
       out = '<div class="image-section"><img class="'
       out <<  "img-responsive #{opt}"

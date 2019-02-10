@@ -687,12 +687,20 @@ TABLE.playlist TD:last-child {
   max-width: 100%;
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
 IMG[alt="left-float-image"] {
   float: left;
   margin-right: 16px;
 }
 
-IMG[alt="right-float-image"] {
+IMG[alt="right-float-image"]{
   float: right;
   margin-left: 16px;
 }
@@ -725,6 +733,10 @@ LI.post-item.Deleted {
 
 .width466 {
   width: 466px;
+}
+
+.width380 {
+  width: 380px;
 }
 
 
