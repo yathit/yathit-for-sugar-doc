@@ -5,9 +5,9 @@
     <target name="forum" description="copy forum.html and replace tokens.">
         <sequential>
             <copy overwrite="true" force="true"
-                  file="${gae.dir}/src/main/webapp/static/sugar-mobile-app/forum.html"
-                  tofile="${gae.dir}/src/main/resources/mkb/forum.html" />
-            <replace summary="true" file="${gae.dir}/src/main/resources/mkb/forum.html">
+                  file="${gae.dir}/src/main/webapp/static/gmail-addon/forum.html"
+                  tofile="${gae.dir}/src/main/resources/akb/forum.html" />
+            <replace summary="true" file="${gae.dir}/src/main/resources/akb/forum.html">
                 <replacetoken><![CDATA[<p>$CONTENT$</p>]]></replacetoken>
                 <replacevalue><![CDATA[{{CONTENT}}]]></replacevalue>
             </replace>
@@ -35,6 +35,7 @@
         <copy todir="${gae.dir}/src/main/webapp/static/gmail-addon">
             <fileset dir="_site"></fileset>
         </copy>
+        <antcall target="forum"/>
     </target>
     <target name="main" depends="concat,build,forum" description="build all">
     </target>
