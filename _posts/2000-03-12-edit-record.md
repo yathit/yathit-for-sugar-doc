@@ -1,5 +1,5 @@
 ---
-title: Editing
+title: Edit
 section: User Guide
 index: 12
 ---

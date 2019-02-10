@@ -1,5 +1,5 @@
 ---
-title: Email template
+title: Email Template
 section: User Guide
 index: 15
 ---

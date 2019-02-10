@@ -24,7 +24,7 @@ Resizing screenshots,
 
 In windows, `choco install ImageMagick`.
 
-    magick mogrify -resize  466x *.png
+    magick mogrify -resize  360x *.png
 
 Uploading
 
