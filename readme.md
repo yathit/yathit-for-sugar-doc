@@ -20,16 +20,20 @@ Resizing screenshots,
 
     sips -Z 466 *.png
 
-    sips -Z 466  ~/screenshot/*.png
+    sips -Z 466  ~/screenshot/*.png    
 
 In windows, `choco install ImageMagick`.
 
     magick mogrify -resize  360x *.png
+    
+Resize gif
+
+    gifsicle --colors 256 --resize-fit-width 360 -i  animation.gif -o animation-360px.gif        
 
 Uploading
 
-    gsutil -m rsync -r ~/screenshot gs://yathit-assets/screenshot
-    rm ~/screenshot/*
+    gsutil -m rsync -r ~/screenshot gs://yathit-assets/addon
+    rm ~/addon/*
 
 Or
 
