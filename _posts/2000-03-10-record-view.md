@@ -6,7 +6,7 @@ index: 10
 
 **Record Card** displays all fields of the record that is configured to be shown in 'Record Detail' layout. You will reach to Record Card by clicking related record items or clicking **VIEW** of the email or attachment record item. 
 
-{{ "record-detail-card.png" | screenshot }}
+{{ "gao/xr/message-record-view-2" | screencast }}
 
 Record Card is composed of four sections.
 

@@ -11,6 +11,11 @@ For this opensource Knowledge Base web site generator, see : [Lessons Learned Bu
 * Run
 
     jekyll serve --watch
+    
+For Windows machine, start Ubuntu for bash, install jekyll and go to before starting. 
+
+    cd /mnt/c/Users/mbikyaw/WebstormProjects/yathit-for-sugar-doc
+    
 
 * Go to [http://localhost:4000/gmail-addon/](http://127.0.0.1:4000/gmail-addon/)
 
