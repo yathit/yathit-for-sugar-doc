@@ -6,7 +6,13 @@ index: 22
 
 You can save current Gmail message in one click, if the target email is in the CRM. Simpley click **SAVE** action button in the [Message Section, home-page, email-message-actions-section].
 
+Saving email message in Gmail web site
+
 {{ "save-email.gif" | screenshot }} 
+
+Saving email message in Mobile Gmail App
+
+{{ "gao/xr/saving-email" | screencast }}
 
 ### Email record
 
@@ -36,7 +42,13 @@ You can upload attachment in one click.
 
 After you have save the message, you can upload attachments of the message by clicking attachment button {{ "attachment" | svg_icon }} on each attachment item.
 
+Uploading attachment in Gmail web site
+
 {{ "upload-attachment.gif" | screenshot }}
+
+Uploading attachment in Gmail mobile app
+
+{{ "gao/xr/save-message-and-attach" | screencast }}
 
 ### Uploading attachment without saving
 

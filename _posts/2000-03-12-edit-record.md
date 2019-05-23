@@ -12,6 +12,8 @@ Yathit Gmail Addon provides you with all the functionality you need to create ne
 * Add the contact’s name, contact details, and job details.
 * Add in descriptions and updates as needed.
 
+{{ "gao/xr/create-lead" | screencast }}
+
 ### Editing Records
 
 * Select an existing record and click the **EDIT** action button.
