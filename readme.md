@@ -66,3 +66,9 @@ In windows, use bash for ubuntu to build the site
 Then go back to PowerShell to copy files to destination folder
      
     ant copy
+    
+## Deploy
+
+Then, to publish quickly as latest version
+
+    (cd ~/gae/yathit-app; mvn appengine:deploy -Dapp.deploy.version=website)
