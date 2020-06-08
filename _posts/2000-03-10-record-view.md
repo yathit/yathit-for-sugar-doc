@@ -24,7 +24,16 @@ All fields the record that is configured to be shown in 'Record Detail' layout.
 
 ### Related records section
 
-The last section is related record section. For *Contact* record, related records of its parent *Account* is also shown. Click on the item to [view detail, record-view] of the related records.
+This section show related records.  Tap on the related record item to see more detail about the related record. 
+ 
+For *Contact* record, related records of its parent *Account* is also shown. Click on the item to [view detail, record-view] of the related records.
+
+### More recipients
+
+If the email has more than one recipient, 'More recipients' section as the last section. Tap on the other recipient email to switch as the selected record. 
+
+![centered-image](https://yathit-assets.storage.googleapis.com/screencast/addon/other-recipients.gif)
+
 
 
 

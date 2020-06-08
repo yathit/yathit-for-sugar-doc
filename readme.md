@@ -47,6 +47,13 @@ Or
 List files
 
     gsutil ls gs://yathit-assets/addon/*
+    
+
+To use the image as centered.
+
+    ![centered-image](https://yathit-assets.storage.googleapis.com/screencast/addon/other-recipients.gif)
+
+   
 
 ## How to build in production
 
@@ -71,4 +78,4 @@ Then go back to PowerShell to copy files to destination folder
 
 Then, to publish quickly as latest version
 
-    (cd ~/gae/yathit-app; mvn appengine:deploy -Dapp.deploy.version=website)
+    (cd ~/gae/yathit-app; mvn appengine:deploy -Dapp.deploy.version=addon-doc)
