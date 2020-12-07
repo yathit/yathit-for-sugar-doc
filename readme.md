@@ -10,7 +10,7 @@ For this opensource Knowledge Base web site generator, see : [Lessons Learned Bu
 * Install required dependencies with `bundle install`
 * Run
 
-    jekyll serve --watch
+     bundle exec jekyll serve
     
 For Windows machine, start Ubuntu for bash, install jekyll and go to before starting. 
 
@@ -37,16 +37,16 @@ Resize gif
 
 Uploading
 
-    gsutil -m rsync -r ~/screenshot gs://yathit-assets/addon
+    gsutil -m rsync -r ~/screenshot gs://yathit-assets/screencast/addon
     rm ~/addon/*
 
 Or
 
-    gsutil mv *.png  gs://yathit-assets/addon/
+    gsutil mv *.png  gs://yathit-assets/screencast/addon/
 
 List files
 
-    gsutil ls gs://yathit-assets/addon/*
+    gsutil ls gs://yathit-assets/screencast/addon/*
     
 
 To use the image as centered.
@@ -76,6 +76,6 @@ Then go back to PowerShell to copy files to destination folder
     
 ## Deploy
 
-Then, to publish quickly as latest version
+After build with `ant`, then publish quickly as latest version
 
     (cd ~/gae/yathit-app; mvn appengine:deploy -Dapp.deploy.version=addon-doc)
